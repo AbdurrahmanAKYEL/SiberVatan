@@ -1,0 +1,143 @@
+# a=90 
+# b="SiberVatan"
+
+# num1,num2,num3=5,55,65
+# print("sayilaaar",num1,num2,num3)
+# num1=num1+50
+# num2=num2+55
+# num3=num3+90
+
+# num1+=num2
+
+# numbers=(50,55,66)
+# print(type(numbers))
+# num1,num2,num3,num4=numbers
+# print(num4) hatalı(num4)
+
+# a,b,c,d=50,100,50,75
+ 
+# sonuç=(a>b)
+# print(sonuç)
+
+# sonuç=(a==c)
+# print(sonuç)
+
+# sonuç=(a>d)
+# print(sonuç)
+
+# sonuç=(a!=c)
+# print(sonuç)
+# username1="ceku"
+# username2="arif"
+# sonuc = (username1=="arif")
+# print("Eşleme sunucu,,,:",sonuc)
+# sonuc = (username2=="arif")
+# print("Eşleme sunucu,,,:",sonuc)
+
+# print("A,R,O,G'a hoş geldiniz.\n")
+# username_input=input("bir kullanıcı adı giriniz: ")
+
+# sonuc = (username1.lower()==username_input.lower())
+# sonuc2 = (username2.lower()==username_input.lower())
+
+# sonuc3=(sonuc != sonuc2)
+# print("Eşleme sunucu,,,:",sonuc3)
+
+# users={
+#     "garavel.usta@gora.com.tr": "garavel123", "216.robot@gora.com.tr": "robot123"
+# }
+# print("A,R,O,G' portalina hoş geldiniz.\n")
+# print("Lutfen A.R.O.G Bilgilarinizi Girin")
+# input_mail=input("Mail Giriniz: ")
+# input_sifre=input("Şifre Giriniz: ")
+# sonuc_mail=input_mail in users.keys()
+# sonuc_sifre=(input_sifre in users.values())
+# sonuc_final=int((sonuc_mail)+int(sonuc_sifre)==2)
+# print("eşleşme durumu..:",sonuc_final) 
+
+
+# fruits=["elma","muz","portakal","kivi"]
+# print("kiraz"in fruits)
+
+
+# x = y =[10,20,30]
+# z= [10,20,30]
+
+
+# print(x is y)
+# print(x is z )
+# print(x == z )
+
+
+# vize= float(input("Vize Notunuzu Girin: ")) 
+# final= float(input("Final Notunuzu Girin: "))
+# ortalama= (0.4 * vize + 0.6 * final)
+# x=(ortalama>50)
+# print(x)
+
+
+
+# sayi=float(input("Bir Sayı Giriniz: "))
+# tek_cift=(sayi>0)and(sayi%2==0)
+# print("sonuc: " ,tek_cift)
+
+
+
+# x=98
+# y=23
+
+# if(x>y):
+#     print("En Büyük Sayi..: ",x)
+# elif (x==y):
+#     print("Sayılar Eşittir")
+# else:
+#     print("y Daha Büyüktür",y)
+
+
+
+# kullanıcı=input("Takım Adı Giriniz: ")
+
+# if   kullanıcı == "Galatasaray":
+#     print("En sevdiğiniz renkler: sarı ve kırmızı")
+# elif kullanıcı == "Fenerbahçe":
+#     print("En sevdiğiniz renkler: sarı ve lacivert")
+# elif kullanıcı == "Kardemir Karabük Spor":
+#     print("En sevdiğiniz renkler: bordo ve lacivert")
+# elif kullanıcı == "beşiktaş":
+#     print("En sevdiğiniz renkler: siyah ve beyaz")
+# else:
+
+# ad=input("Bir Kullanıcı Adı: ")
+# sifre=input("Bir Şifre Girin: ")
+# isim="Abdurrahman"
+# Soy_isim="Akyel"
+
+# if isim+Soy_isim==ad+sifre:
+#     print("Hoş Geldiniz")  
+# elif isim+Soy_isim!=ad+sifre:
+#     print("isim ve şifre hatalı")
+# elif isim != ad:
+#     print("isim hatalı")
+# elif Soy_isim != sifre:
+#     print("Şifre hatalı")
+# else: 
+#     print("Hatalı kullanıcı ismi")
+
+
+
+# sayı1=int(input("1. Sayıyı Girin"))
+# sayı2=int(input("2. Sayıyı Girin"))
+# istenen_işlem=input("yapılması istediğin işlemi gir: ")
+# if istenen_işlem=="çarpma":
+#     print(sayı1*sayı2)
+# elif istenen_işlem=="çıkartma":
+#     if sayı1>sayı2:
+#         print(sayı1-sayı2)
+#     else:
+#         print(sayı2-sayı1)
+# elif istenen_işlem=="toplama":
+#     print(sayı1+sayı2)
+# elif istenen_işlem=="bölme":
+#     print(sayı1/sayı2)
+# else:
+#     print("İşlem Hatlaı")
