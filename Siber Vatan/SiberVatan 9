@@ -1,0 +1,106 @@
+# # Bir fonksiyon oluşturun. Emeklilik yaşını 65 olarak belirleyin. Kullanıcıdan yaşını alıp 65 yaş altındakilere emekliliğine kaç yıl kaldığını
+# # 65 yaş üstüne zaten emekli olduğunu ekrana yazdırın.
+
+# def emeklilik():
+#     emeklilik_yasi=65
+#     asil_yas= int(input("Yaşınızı Girin: "))
+#     if (emeklilik_yasi>asil_yas):
+#         kalan_yas= emeklilik_yasi-asil_yas
+#         print(kalan_yas)
+#     else:
+#         print("Emekli Olabilirsiniz")
+# emeklilik()
+
+# # Bir fonksiyon oluşturun.Fonksiyon kullanıcıdan iki sayı alıp bu iki sayı arasındaki asal sayıları ekrana bastırın.
+
+# sayi1 = int(input("Sayı 1: "))
+# sayi2 = int(input("Sayı 2: "))
+
+# print(sayi1,"ile",sayi2,"arasındaki asal sayılar:")
+
+# for sayi in range(sayi1,sayi2 + 1):
+#    if sayi > 1:
+#        for i in range(2,sayi):
+#            if (sayi % i) == 0:
+#                break
+#        else:
+#            print(sayi)
+
+# İki fonksiyon oluşturun. İki fonksiyon içinde de listeler olsun ilk fonksiyon içindeki listenin en büyük sayısını ikinci fonksiyon içindeki
+# listenin en küçük sayısını toplayıp ekrana bastırın.
+
+# ????????????????????????????????????????????????????????????????*
+ 
+# def listeli():  
+#     liste = []
+#     adet = int(input('Kaç Sayı Girilecek: '))
+#     for n in range(adet):
+#         sayi = int(input('Sayıyı Gir: '))
+#         liste.append(sayi)
+ 
+#     en_kucuk = liste[0]
+#     en_buyuk = liste[0]
+#     for n in liste:
+  
+#     if en_kucuk > n:
+#         en_kucuk = n
+#     if en_buyuk < n:
+#         en_buyuk = n
+#     def sayil():
+#         liste = []
+#     adet = int(input('Kaç Sayı Girilecek: '))
+#     for n in range(adet):
+#         sayi = int(input('Sayıyı Gir: '))
+#         liste.append(sayi)
+ 
+#     en_kucuk = liste[0]
+#     en_buyuk = liste[0]
+#     for n in liste:
+  
+#     if en_kucuk > n:
+#         en_kucuk = n
+#     if en_buyuk < n:
+#         en_buyuk = n
+#     sayil()
+
+# Bir fonksiyon oluşturun. Fonksiyon içinde bir tane liste olsun ve bu listenin ilk ve son sayısı eşitse ekrana true değilse false yazdırsın.
+
+# def esitmi():
+#     list = [12,13,14,15,12]
+#     if (list[0] == list[-1]):
+#         print("True")
+#     else:
+#         print("False")
+        
+# esitmi()
+
+
+
+
+
+# # Bir sayının palindrom sayı olup olmadığını kontrol eden fonksiyonu yazınız.
+
+# def sayili():
+#     sayi = (input("bir sayı girin: "))
+#     tersi = sayi[::-1]
+#     print(sayi[::-1])
+#     if  sayi==tersi :
+#         print("dogru")
+#     else:
+#         print("yanlış")
+# sayili()
+
+
+
+# # Bir fonksiyon oluşturun. Fonksiyon içinde iki liste olsun ilk listenin çift sayılarını ikinci listenin tek sayılarını alıp yeni bir listeye ekleyin ve ekrana yazdırın.
+# def listeleri_birlestir(liste1, liste2):   
+#     cift_sayilar = [sayi for sayi in liste1 if sayi % 2 == 0]   
+#     tek_sayilar = [sayi for sayi in liste2 if sayi % 2 != 0]
+#     birlesik_liste = cift_sayilar + tek_sayilar
+#     print("Birleştirilmiş Liste:", birlesik_liste)
+# liste1 = [1, 2, 3, 4, 5]
+# liste2 = [6, 7, 8, 9, 10]
+
+# listeleri_birlestir(liste1, liste2)
+# Rus ruleti oyunu yazın. Random kütüphanesi kullanarak 1-6 arasında bir sayı seçilsin ve kullanıcıdan bir sayı alsın eşit olduğunda oyun biter.
+# 2 fonksiyon kullanarak yazabilirsiniz.
